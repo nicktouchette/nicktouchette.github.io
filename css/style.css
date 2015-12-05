@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('../fonts/bebasneue_book-webfont.eot');
+    src: url('../fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_book-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_book-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+}
+.bold {
+  font-weight: 700;
+}
+html {
+  box-sizing: border-box;
+  font-family: 'BebasNeueRegular', sans-serif;
+  color: black;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  text-decoration: none;
+}
+body {
+  background-color: #4A4A4A;
+  margin: 0px;
+}
+header {
+  padding-top: 5%;
+  width: 100%;
+  position: relative;
+}
+header h1 {
+  font-size: 55px;
+  color: #FF9E00;
+  margin: 0px;
+  padding-left: 7%;
+  line-height: 20px;
+  position: relative;
+}
+header h2 {
+  font-family: 'BebasNeueBook';
+  font-size: 30px;
+  color: #0095FF;
+  margin: 0px;
+  padding-left: 15%;
+  padding-top: 10px;
+  position: relative;
+}
+nav {
+  width: 100%;
+  background-color: #6E6E6E;
+  opacity: 75%;
+  height: 40px;
+  box-shadow: 0px 9px 13px 0px rgba(0,0,0,0.50);
+}
+nav ul {
+  list-style: none;
+  width: 480px;
+  height: inherit;
+  padding: 0;
+  margin: auto;
+
+}
+nav li {
+  display: inline-block;
+  width: 32%;
+  height: inherit;
+  text-align: center;
+}
+nav li a {
+  display: inherit;
+  width: 100%;
+  padding-top: 9px;
+  height: 100%;
+  font-size: 22px;
+  color: #FF9E00;
+  text-shadow: 0px 2px 7px rgba(0,0,0,0.50);
+}
+nav li a.selected {
+  background-color: rgba(24,229,93,.35);
+}
+#contentpanes {
+  background-color: #808080;
+  padding: 10px 40px;
+}
+section {
+  color: white;
+  padding-bottom: 100px;
+}
+section h1 {
+  font-family: 'BebasNeueBook';
+  font-size: 24px;
+}
+.clear {
+  clear: both;
+}
